@@ -192,4 +192,4 @@ Multipliers kilo, mega, giga, etc. are used in a manner consistent with their me
 ### Binary vs Decimal
 
 Computers encode all information in binary, since they also use binary representation at the hardware level. 0's and 1's are represented by voltage level. Since this is the case, it is possible to have as few states as possible, because physical fluctuations could affect voltage levels. It is harder to compensate for these fluctuations if we have many states. One would also have to increase the generally possible voltage (hence increasing the voltage range) to be able to detect different voltage levels (many states), and this would increase power consumption.  
-Also, if we use more states we need more memory, and hardware-level logic becomes increasingly difficult with more states.
+Also, if we use more states we also need more memory, and hardware-level logic becomes increasingly difficult with more states.
