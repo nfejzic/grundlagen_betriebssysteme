@@ -31,7 +31,7 @@ This assignment is done by Nadir Fejzic, Matrikelnummer: 11910236
 | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
 |      128      |      64       |      32       |      16       |       8       |       4       |       2       |       1       |
 
-### Exercises 2:
+### Exercise 2:
 1. What is a binary number?
     - Binary number is a number represented in base 2, in which there are only two possible values for a digit: 0 and 1. The sequence of 0's and 1's represent the powers of 2 which, when added together, represent the final value. 0 means that this power of 2 is not present, 1 means it is present. The right-most digit represents the 0th power (2<sup>0</sup>).
   
@@ -45,7 +45,7 @@ This assignment is done by Nadir Fejzic, Matrikelnummer: 11910236
 MSB is the bit on the far left and represents the greatest value.
 The Least Significant Bit is the right-most bit and it shows if a number is even or odd. If the LSB is 1 the number is odd, otherwise it's even.
 
-### Exercises 3:
+### Exercise 3:
 1. Is the value 101010 even or odd?
     - LSB is 0, so this number is even. The number is: 42.
 2. Is the value 111 even or odd?
@@ -59,7 +59,7 @@ The Least Significant Bit is the right-most bit and it shows if a number is even
 ## Byte
 Byte is a unit of digital information in computing and most commonly consists of 8 bits.
 
-### Exercises 4:
+### Exercise 4:
 1. What is the smallest number representable by an (unsigned) byte?
     - The smallest number is 0 represented by byte 0b00000000.
 
@@ -70,7 +70,7 @@ Byte is a unit of digital information in computing and most commonly consists of
 ASCII is used to map characters to 7 bit wide integers and vice versa. 
 Reference: [ASCII Table](https://github.com/cksystemsteaching/selfie/blob/master/assignments/ascii-table.md)
 
-### Exercises 5:
+### Exercise 5:
 1. How many different characters can be represented in ASCII?
     - ASCII uses 7 bits, there are also 2<sup>7</sup> = 128 many characters in ASCII.
 
@@ -91,7 +91,7 @@ Reference: [ASCII Table](https://github.com/cksystemsteaching/selfie/blob/master
 Octal notation is popular in computer science because it is represented in blocks of three bits. Each digit of an octal number is represented by 3 bits.  
 Conversion from decimal to octal can be done by first converting to binary, then grouping the binary representation into groups of three bits, and converting the three bits to their octal digits.
 
-### Exercises 6:
+### Exercise 6:
 1. What is the octal representation of the decimal value 16?
    - 16 = 0b00010000 = 0b 010 000 = 0o20
 2. What is the octal representation of the binary number 0b100100?
@@ -105,7 +105,7 @@ A **nibble** is a block of four bits. One nibble corresponds to precisely one he
 When we write hexadecimal numbers we use prefix **0x** to emphasize it.  
 Conversion from binary to hexadecimal is similar to conversion from binary to octal.
 
-### Exercises 7:
+### Exercise 7:
 1. Convert the binary number 0b1100100100011111 into the hexadecimal representation.
     - 0b1100100100011111 = 0b 1100 1001 0001 1111 = 0x C 9 1 F = 0xC91F
 2. Convert the hexadecimal number 64B1D into the binary representation.
@@ -120,7 +120,7 @@ Software (and therefore machine code) specifies for each state what is the next 
 
 With N-many bits we can distinguish 2<sup>N</sup> many states.
 
-### Exercises 8:
+### Exercise 8:
 1. How many states can we distinguish with 1 byte?
     - 1 byte has 8 bits, therefore we can distinguish 2<sup>8</sup> = 256 many states.
 2. How many states can we distinguish with 64 bits?
@@ -180,7 +180,7 @@ Multipliers kilo, mega, giga, etc. are used in a manner consistent with their me
 | 1000 megabytes |   10<sup>9</sup>    | = 1 gigabyte |   GB   |
 | 1000 gigabytes |   10<sup>12</sup>   | = 1 terabyte |   TB   |
 
-### Exercises 9:
+### Exercise 9:
 1. How many different states can a digital computer with 4GB of memory have?
     - 4GB is 4 * 10<sup>9</sup> bytes, which is further 4 * 10<sup>9</sup> * 8 many bits.
     - Therefore 4GB = 4 * 1 000 000 000 * 8 = 32 000 000 000 many bits, and such a computer can have   
